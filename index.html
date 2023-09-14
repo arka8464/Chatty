@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatty</title>
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="/js/client.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="header-img">
+        <img src="/chat-icon.png" height="20px" width="20px" alt="" />
+      </div>
+      <div id="chat-box">
+        <div class="message-boxes" id="box-1">
+          hello this is my first message
+        </div>
+        <div class="message-boxes" id="box-2">hi whats up this is me</div>
+      </div>
+      <div class="message-container">
+        <div class="msg-form">
+            <form action="#"  id="send-form">
+                <!-- <label for="message"></label> -->
+                <input  type="text" id="message-box"  >
+<!-- check if the textarea submits as earlier si created a form to enter userdata  -->
+                <!-- <textarea id="messagesInserted" name="comments" rows="4" cols="50"></textarea> -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="/scripts.js"></script> -->
+  </body>
+</html>
