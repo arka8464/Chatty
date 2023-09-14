@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(rgb(3, 3, 152), white);
+  height: 100vh;
+}
+#chat-box {
+  border: 2px solid black;
+  height: 70vh;
+  width: 52vw;
+  display: block;
+  margin: auto;
+  overflow: scroll auto ;
+}
+
+.message-boxes {
+    height: 6vh;
+    width: 26vw;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 4%;
+    background-color: #ffffff91;
+    margin: 2%;
+}
+#box-1{
+    float: left;
+}
+#box-2{
+    float: right;
+}
+.main-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.message-container{
+    margin: .5%;
+}
+#message-box{
+    width: 45vw;
+}
